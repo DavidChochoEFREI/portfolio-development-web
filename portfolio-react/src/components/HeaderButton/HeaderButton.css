@@ -1,9 +1,0 @@
-.header-button {
-    background-color: transparent;
-    color: #4a5568; /* gray-800 */
-    font-weight: 600; /* font-semibold */
-    padding: 0.5rem 1rem; /* py-2 px-4 */
-    border: 0px solid #cbd5e0; /* border-gray-400 */
-    border-radius: 0.25rem; /* rounded */
-    transition: background-color 0.3s ease;
-}
