@@ -1,16 +1,17 @@
 import React from 'react';
 import './HeaderButton.css';
 
-export default function HeaderButton() {
+export default function HeaderButton({text, onClick = () => {}}) {
+
     const handleClick = () => {
-        alert('Button clicked!');
+        onClick();
     };
 
     return (
         <button 
         className="header-button"
         onClick={handleClick}>
-            Click Me
+            {text}
         </button>
     );
 }
